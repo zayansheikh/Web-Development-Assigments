@@ -1,0 +1,147 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#first{
+    margin: 7px;
+    margin-top: -13px;
+    background-color: rgb(150, 149, 149);
+    height: 41px;
+    padding-top: 26px;
+}
+#logo{
+    font-size: 19px;
+    font-family: fantasy;
+    margin-top: -3px;
+}
+
+#main{
+    /* background-color: black; */
+    background-image: url(/images/h1.webp);
+    background-repeat: no-repeat;
+    background-size: 1504px;
+    height: 668px;
+    width: 100%;
+    border: 2px solid blue;
+}
+#side{
+    color: white;
+    font-size: 34px;
+    margin-top: 254px;
+    margin-left: 61px;
+}
+#nav1{
+    width: 477px;
+    margin: 0px auto;
+}
+nav{
+    display: flex;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin: 26px;
+}
+li a:hover{
+    color: rgb(65, 64, 64);
+    border: 3px dotted black;
+}
+#firstcard{
+    width: 550px;
+    display: inline-block;
+    height: 501px;
+}
+#secondcard, #thirdcard{
+    height: 501px;
+    width: 284px;
+    display: inline-block;
+    margin-left: 2px;
+}
+#incard1, #incard2, #incard3, #incard4{
+    /* border: 2px solid blue; */
+    height: 226px;
+    margin: 13px;
+}
+#cardimage1{
+    width: 100%;
+    height: 464px;
+    border-radius: 10px;    
+}
+#cardimage1:hover{
+    transform: scale(1.05);
+}
+
+.cardimage{
+    width: 268px;
+    height: 226px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.cardimage:hover{
+    transform: scale(1.05);
+}
+#imgtext{
+    display: flex;
+}
+.secondlast{
+    width: 561px;
+}
+#halfpic{
+    border-radius: 15px;
+}
+#halfpic:hover{
+    transform: scale(1.05);
+}
+.headings{
+    margin-top: 67px;
+    padding-left: 40px;
+}
+.text{
+    padding: 11px;
+}
+.text:hover{
+    border-top: 3px solid black;
+    padding: 13px;
+}
+
+#search{
+    border-radius: 20px;
+    width: 350px;
+    height: 45px;
+}
+#last{
+    margin-top: 54px;
+}
+.btn{
+    border-radius: 15px;
+    width: 160px;
+    height: 26px;
+    font-size: 10px;
+}
+.btn:hover{
+    background-color: rgb(219, 219, 219);
+}
+.pera{
+    font-size: 12px;
+    color: gray;
+}
+#footer{
+    display: flex;
+}
+.footers{
+    border: 2px solid rgb(204, 202, 202);
+    height: 544px;
+    width: 279px;
+}
+#footer li{
+    list-style: none;
+    margin: 15px;
+    margin-left: -18px;
+    font-size: 11px;
+}
+#footer h3{
+    margin-left: 23px;
+}
